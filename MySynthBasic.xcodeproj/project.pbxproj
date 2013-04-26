@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601E07BC13D29EE10047CA39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601E07BB13D29EE10047CA39 /* Cocoa.framework */; };
+		601E07C613D29EE10047CA39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 601E07C413D29EE10047CA39 /* InfoPlist.strings */; };
+		601E07C913D29EE10047CA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E07C813D29EE10047CA39 /* main.m */; };
+		601E07CC13D29EE10047CA39 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 601E07CA13D29EE10047CA39 /* Credits.rtf */; };
+		601E07CF13D29EE10047CA39 /* MySynthBasicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E07CE13D29EE10047CA39 /* MySynthBasicAppDelegate.m */; };
+		601E07D213D29EE20047CA39 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601E07D013D29EE20047CA39 /* MainMenu.xib */; };
+		60CD804F13D69D7600B59227 /* ChrisAudioEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60CD804E13D69D7600B59227 /* ChrisAudioEngine.mm */; };
+		60CD805313D6A0AD00B59227 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD805113D6A0AD00B59227 /* AudioToolbox.framework */; };
+		60CD805413D6A0AD00B59227 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD805213D6A0AD00B59227 /* AudioUnit.framework */; };
+		60CD806213D6C3B800B59227 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CD806113D6C3B800B59227 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		601E07B713D29EE10047CA39 /* MySynthBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySynthBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		601E07BB13D29EE10047CA39 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		601E07BE13D29EE10047CA39 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		601E07BF13D29EE10047CA39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		601E07C013D29EE10047CA39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		601E07C313D29EE10047CA39 /* MySynthBasic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySynthBasic-Info.plist"; sourceTree = "<group>"; };
+		601E07C513D29EE10047CA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		601E07C713D29EE10047CA39 /* MySynthBasic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySynthBasic-Prefix.pch"; sourceTree = "<group>"; };
+		601E07C813D29EE10047CA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		601E07CB13D29EE10047CA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		601E07CD13D29EE10047CA39 /* MySynthBasicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySynthBasicAppDelegate.h; sourceTree = "<group>"; };
+		601E07CE13D29EE10047CA39 /* MySynthBasicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySynthBasicAppDelegate.m; sourceTree = "<group>"; };
+		601E07D113D29EE20047CA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		60CD804D13D69D7600B59227 /* ChrisAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChrisAudioEngine.h; sourceTree = "<group>"; };
+		60CD804E13D69D7600B59227 /* ChrisAudioEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChrisAudioEngine.mm; sourceTree = "<group>"; };
+		60CD805113D6A0AD00B59227 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		60CD805213D6A0AD00B59227 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		60CD806113D6C3B800B59227 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601E07B413D29EE10047CA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CD806213D6C3B800B59227 /* CoreAudio.framework in Frameworks */,
+				60CD805313D6A0AD00B59227 /* AudioToolbox.framework in Frameworks */,
+				60CD805413D6A0AD00B59227 /* AudioUnit.framework in Frameworks */,
+				601E07BC13D29EE10047CA39 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601E07AC13D29EE10047CA39 = {
+			isa = PBXGroup;
+			children = (
+				601E07C113D29EE10047CA39 /* MySynthBasic */,
+				601E07BA13D29EE10047CA39 /* Frameworks */,
+				601E07B813D29EE10047CA39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		601E07B813D29EE10047CA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601E07B713D29EE10047CA39 /* MySynthBasic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601E07BA13D29EE10047CA39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60CD806113D6C3B800B59227 /* CoreAudio.framework */,
+				60CD805113D6A0AD00B59227 /* AudioToolbox.framework */,
+				60CD805213D6A0AD00B59227 /* AudioUnit.framework */,
+				601E07BB13D29EE10047CA39 /* Cocoa.framework */,
+				601E07BD13D29EE10047CA39 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		601E07BD13D29EE10047CA39 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601E07BE13D29EE10047CA39 /* AppKit.framework */,
+				601E07BF13D29EE10047CA39 /* CoreData.framework */,
+				601E07C013D29EE10047CA39 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		601E07C113D29EE10047CA39 /* MySynthBasic */ = {
+			isa = PBXGroup;
+			children = (
+				60CD804D13D69D7600B59227 /* ChrisAudioEngine.h */,
+				60CD804E13D69D7600B59227 /* ChrisAudioEngine.mm */,
+				601E07CD13D29EE10047CA39 /* MySynthBasicAppDelegate.h */,
+				601E07CE13D29EE10047CA39 /* MySynthBasicAppDelegate.m */,
+				601E07D013D29EE20047CA39 /* MainMenu.xib */,
+				601E07C213D29EE10047CA39 /* Supporting Files */,
+			);
+			path = MySynthBasic;
+			sourceTree = "<group>";
+		};
+		601E07C213D29EE10047CA39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				601E07C313D29EE10047CA39 /* MySynthBasic-Info.plist */,
+				601E07C413D29EE10047CA39 /* InfoPlist.strings */,
+				601E07C713D29EE10047CA39 /* MySynthBasic-Prefix.pch */,
+				601E07C813D29EE10047CA39 /* main.m */,
+				601E07CA13D29EE10047CA39 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		601E07B613D29EE10047CA39 /* MySynthBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601E07D513D29EE20047CA39 /* Build configuration list for PBXNativeTarget "MySynthBasic" */;
+			buildPhases = (
+				601E07B313D29EE10047CA39 /* Sources */,
+				601E07B413D29EE10047CA39 /* Frameworks */,
+				601E07B513D29EE10047CA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySynthBasic;
+			productName = MySynthBasic;
+			productReference = 601E07B713D29EE10047CA39 /* MySynthBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		601E07AE13D29EE10047CA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 601E07B113D29EE10047CA39 /* Build configuration list for PBXProject "MySynthBasic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 601E07AC13D29EE10047CA39;
+			productRefGroup = 601E07B813D29EE10047CA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				601E07B613D29EE10047CA39 /* MySynthBasic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		601E07B513D29EE10047CA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601E07C613D29EE10047CA39 /* InfoPlist.strings in Resources */,
+				601E07CC13D29EE10047CA39 /* Credits.rtf in Resources */,
+				601E07D213D29EE20047CA39 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601E07B313D29EE10047CA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601E07C913D29EE10047CA39 /* main.m in Sources */,
+				601E07CF13D29EE10047CA39 /* MySynthBasicAppDelegate.m in Sources */,
+				60CD804F13D69D7600B59227 /* ChrisAudioEngine.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		601E07C413D29EE10047CA39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601E07C513D29EE10047CA39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		601E07CA13D29EE10047CA39 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601E07CB13D29EE10047CA39 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		601E07D013D29EE20047CA39 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601E07D113D29EE20047CA39 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		601E07D313D29EE20047CA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/AudioUnits/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		601E07D413D29EE20047CA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/AudioUnits/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		601E07D613D29EE20047CA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySynthBasic/MySynthBasic-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = /Developer/Extras/CoreAudio;
+				INFOPLIST_FILE = "MySynthBasic/MySynthBasic-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		601E07D713D29EE20047CA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySynthBasic/MySynthBasic-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = /Developer/Extras/CoreAudio;
+				INFOPLIST_FILE = "MySynthBasic/MySynthBasic-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		601E07B113D29EE10047CA39 /* Build configuration list for PBXProject "MySynthBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601E07D313D29EE20047CA39 /* Debug */,
+				601E07D413D29EE20047CA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601E07D513D29EE20047CA39 /* Build configuration list for PBXNativeTarget "MySynthBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601E07D613D29EE20047CA39 /* Debug */,
+				601E07D713D29EE20047CA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 601E07AE13D29EE10047CA39 /* Project object */;
+}
