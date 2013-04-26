@@ -7,4 +7,4 @@ Basically, I wanted to create a synthesizer app, and the first thing I needed to
 
 This app seeds three arrays with sine, triangle, and square wave data. It creates three wave generators and mixes their output through the Core Audio "graph," which is kind of like a mixer. It mixes the three waves together and allows you to change the input volume of each wave, as well as the master volume of the combined signal. 
 
-![ScreenShot](https://github.com/chrisl777/MySynthBasic/blob/master/MySynthBasic.png) 
+![ScreenShot](https://raw.github.com/chrisl777/MySynthBasic/master/MySynthBasic.png) 
